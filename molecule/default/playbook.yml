@@ -2,5 +2,10 @@
 
 - name: Converge
   hosts: all
+  become: yes
+  vars:
+    nodejs_install_npm_user: root
+    npm_config_prefix: /root/.npm-global
+    npm_config_unsafe_perm: "true"
   roles:
     - role: tmiller02.yarn
