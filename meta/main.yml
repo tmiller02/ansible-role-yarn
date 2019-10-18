@@ -1,4 +1,8 @@
 ---
+
+dependencies:
+  - geerlingguy.nodejs
+
 galaxy_info:
   role_name: yarn
   author: tmiller02
