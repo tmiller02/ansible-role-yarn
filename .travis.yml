@@ -5,6 +5,10 @@ python:
   - "2.7"
   - "3.6"
   - "3.7"
+env:
+  - MOLECULE_IMAGE=centos:6
+  - MOLECULE_IMAGE=centos:7
+  - MOLECULE_IMAGE=centos:8
 services:
   - docker
 install:

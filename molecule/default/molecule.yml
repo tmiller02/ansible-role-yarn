@@ -6,8 +6,8 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: instance_centos7
-    image: centos:7
+  - name: instance
+    image: ${MOLECULE_IMAGE:-centos:7}
 provisioner:
   name: ansible
   lint:
