@@ -12,3 +12,4 @@
   post_tasks:
     - name: check that yarn is present
       command: command -v yarn
+      changed_when: false
