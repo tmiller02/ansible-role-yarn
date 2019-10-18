@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Tom Miller
+  description: Install the Yarn JS package manager
+
+  # If the issue tracker for your role is not on github, uncomment the
+  # next line and provide a value
+  # issue_tracker_url: http://example.com/issue/tracker
+
+  license: BSD
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - javascript
+    - nodejs
+    - yarn
