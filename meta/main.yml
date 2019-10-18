@@ -1,7 +1,7 @@
 ---
 
 dependencies:
-  - geerlingguy.nodejs
+  - { role: geerlingguy.nodejs, become: yes }
 
 galaxy_info:
   role_name: yarn
