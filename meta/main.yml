@@ -9,7 +9,6 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 6
         - 7
         - 8
     - name: Ubuntu
@@ -18,7 +17,6 @@ galaxy_info:
         - disco dingo
     - name: Debian
       versions:
-        - jessie
         - stretch
         - buster
   galaxy_tags:
