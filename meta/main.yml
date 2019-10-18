@@ -12,6 +12,15 @@ galaxy_info:
         - 6
         - 7
         - 8
+    - name: Ubuntu
+      versions:
+        - bionic
+        - disco dingo
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
   galaxy_tags:
     - javascript
     - nodejs
