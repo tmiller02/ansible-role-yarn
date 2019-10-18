@@ -9,3 +9,6 @@
     npm_config_unsafe_perm: "true"
   roles:
     - role: tmiller02.yarn
+  post_tasks:
+    - name: check that yarn is present
+      command: command -v yarn

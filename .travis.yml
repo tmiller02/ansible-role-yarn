@@ -5,11 +5,12 @@ python:
   - "3.6"
   - "3.7"
 env:
+  - MOLECULE_IMAGE=fedora:29
+  - MOLECULE_IMAGE=fedora:30
   - MOLECULE_IMAGE=centos:7
   - MOLECULE_IMAGE=centos:8
   - MOLECULE_IMAGE=ubuntu:18.04
   - MOLECULE_IMAGE=ubuntu:19.04
-  - MOLECULE_IMAGE=ubuntu:19.10
   - MOLECULE_IMAGE=debian:stretch
   - MOLECULE_IMAGE=debian:buster
 services:
