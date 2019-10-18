@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: yarn
-  author: Tom Miller
+  author: tmiller02
   description: Install the Yarn JS package manager
   issue_tracker_url: https://github.com/tmiller02/ansible-role-yarn/issues
   license: BSD
