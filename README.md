@@ -1,6 +1,8 @@
 Ansible Role: Yarn
 =========
 
+[![Build Status](https://travis-ci.org/tmiller02/ansible-role-yarn.svg?branch=master)](https://travis-ci.org/tmiller02/ansible-role-yarn)
+
 Installs Yarn on RHEL/CentOS and Ubuntu/Debian.
 
 Requirements
