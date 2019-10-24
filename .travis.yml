@@ -6,7 +6,6 @@ python:
   - "3.7"
 env:
   - MOLECULE_IMAGE=centos:7
-  - MOLECULE_IMAGE=centos:8
   - MOLECULE_IMAGE=ubuntu:18.04
   - MOLECULE_IMAGE=ubuntu:19.04
   - MOLECULE_IMAGE=debian:stretch
