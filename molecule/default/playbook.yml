@@ -10,6 +10,6 @@
   roles:
     - role: tmiller02.yarn
   post_tasks:
-    - name: check that yarn is present
-      command: command -v yarn
+    - name: check that the yarn command is present
+      shell: command -v yarn
       changed_when: false
