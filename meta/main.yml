@@ -1,7 +1,6 @@
 ---
 
-dependencies:
-  - geerlingguy.nodejs
+dependencies: []
 
 galaxy_info:
   role_name: yarn

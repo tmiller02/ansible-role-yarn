@@ -3,13 +3,13 @@
 - name: Converge
   hosts: all
   become: yes
-  vars:
-    nodejs_install_npm_user: root
-    npm_config_prefix: /root/.npm-global
-    npm_config_unsafe_perm: "true"
   roles:
+    - role: geerlingguy.nodejs
+      nodejs_install_npm_user: root
+      npm_config_prefix: /root/.npm-global
+      npm_config_unsafe_perm: "true"
     - role: tmiller02.yarn
   post_tasks:
     - name: check that the yarn command is present
-      shell: command -v yarn
+      command: yarn
       changed_when: false
