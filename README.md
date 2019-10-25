@@ -24,6 +24,7 @@ Example Playbook
 ----------------
 
     - hosts: servers
+      become: yes
       roles:
         - geerlingguy.nodejs 
         - tmiller02.yarn
